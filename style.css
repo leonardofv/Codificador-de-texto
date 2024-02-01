@@ -1,0 +1,73 @@
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sectionTexto {
+    height: 756px;
+    padding: 32px;
+}
+
+.areaTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 130px;
+    gap: 5px;
+}
+
+#texto {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    padding: 24px;
+}
+
+.botoes {
+    display: flex;
+    width: 90%;
+    gap: 10px;
+    margin-top: 350px;
+    margin-right: 50px;
+}
+
+.criptografar {
+    width: 320px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: rgb(53, 53, 185);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.descriptografar {
+    width: 320px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: #c6c2c2;
+    border: none;
+    cursor: pointer;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    padding: 32px;
+    background-color: rgba(53, 53, 185, 0.918);
+    border-radius: 30px;
+}
+
